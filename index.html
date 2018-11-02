@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Web, HTML & CSS</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/night.css" id="theme">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h1>WWW</h1>
+			</section>
+
+			<section>
+				<h4><a href="https://github.com/fernandoajn" target="_blank" style="color: #eee;">Fernando Augusto</a></h4>
+				<h4><a href="https://github.com/chillrx" target="_blank" style="color: #eee;">Victor Machado</a></h4>
+			</section>
+
+			<!-- SLIDES HTML -->
+			<section>
+				<section>
+					<h1>HTML5</h1>
+				</section>
+
+				<section>
+					<h3>Estrutura básica</h3>
+					<img src="/imgs/html_struct.png">
+				</section>
+
+				<section>
+					<h3>Organização</h3>
+					<img src="/imgs/html_organizacao.png">
+				</section>
+
+				<section>
+					<h3>Textos</h3>
+					<img src="/imgs/html_texto.png">
+				</section>
+
+				<section>
+					<h3>Atributos</h3>
+					<img src="/imgs/html_atributos.png">
+				</section>
+
+			</section>
+
+			<!-- SLIDES CSS -->
+			<section>
+				<section>
+					<h1>CSS</h1>
+				</section>
+			</section>
+
+			<!-- FINAL -->
+			<section>
+				<h1>OBRIGADO!</h1>
+			</section>
+
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+			]
+		});
+
+		Reveal.configure({
+			backgroundTransition: 'zoom'
+		});
+	</script>
+</body>
+
+</html>
