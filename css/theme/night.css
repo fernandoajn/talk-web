@@ -270,3 +270,8 @@ body {
 @media print {
   .backgrounds {
     background-color: #111; } }
+
+/* PROPER STYLE */
+.destaque {
+  color: #b52e31;
+}
