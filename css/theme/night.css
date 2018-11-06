@@ -207,20 +207,20 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #e7ad52;
+  color: #b52e31;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #f3d7ac;
+  color: #b52e31;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #d08a1d; }
+  background: #b52e31; }
 
 /*********************************************
  * IMAGES
